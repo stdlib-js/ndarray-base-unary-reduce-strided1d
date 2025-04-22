@@ -32,6 +32,7 @@
 
 <details>
 
+-   [`38e6862`](https://github.com/stdlib-js/stdlib/commit/38e6862ed900b11bde5596931df3adfd652118ee) - **refactor:** precompute shape and strides _(by Athan Reines)_
 -   [`ad90a38`](https://github.com/stdlib-js/stdlib/commit/ad90a38e1d8eabd6476c7c086ac1f82f2742d386) - **fix:** ensure correct shape and strides _(by Athan Reines)_
 -   [`6223529`](https://github.com/stdlib-js/stdlib/commit/62235292bcb59d6ee9a1af4418aec6afee619f6d) - **docs:** remove unused import in example _(by Athan Reines)_
 -   [`35612e9`](https://github.com/stdlib-js/stdlib/commit/35612e9369b15f22fc8be80a9da56cf73aee05d8) - **chore:** add TODO _(by Athan Reines)_
