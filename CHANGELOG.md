@@ -32,6 +32,7 @@
 
 <details>
 
+-   [`d19823e`](https://github.com/stdlib-js/stdlib/commit/d19823e71c410b6f6ff1db39a70fdf83ed7e4267) - **refactor:** avoid mutating the list of views _(by Athan Reines)_
 -   [`38e6862`](https://github.com/stdlib-js/stdlib/commit/38e6862ed900b11bde5596931df3adfd652118ee) - **refactor:** precompute shape and strides _(by Athan Reines)_
 -   [`ad90a38`](https://github.com/stdlib-js/stdlib/commit/ad90a38e1d8eabd6476c7c086ac1f82f2742d386) - **fix:** ensure correct shape and strides _(by Athan Reines)_
 -   [`6223529`](https://github.com/stdlib-js/stdlib/commit/62235292bcb59d6ee9a1af4418aec6afee619f6d) - **docs:** remove unused import in example _(by Athan Reines)_

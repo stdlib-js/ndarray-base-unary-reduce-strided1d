@@ -35,6 +35,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
+    "@stdlib/array-base-copy-indexed": "^0.2.2",
     "@stdlib/array-base-indices-complement": "github:stdlib-js/array-base-indices-complement#main",
     "@stdlib/array-base-join": "^0.1.1",
     "@stdlib/array-base-take-indexed": "^0.2.2",
