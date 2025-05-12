@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-27)
+## Unreleased (2025-05-12)
 
 <section class="features">
 
@@ -20,6 +20,9 @@
 
 ### Bug Fixes
 
+-   [`ccc7890`](https://github.com/stdlib-js/stdlib/commit/ccc7890aee959303e2defbc627b32f66b18535eb) - check for row-major value
+-   [`7583774`](https://github.com/stdlib-js/stdlib/commit/7583774f4307a69b9e364a2e60c14ee034fa02a9) - use resolved order when computing loop variables
+-   [`e0a04fe`](https://github.com/stdlib-js/stdlib/commit/e0a04fe3cbdcab5adb4529158d2ccf085fb971a6) - use computed order
 -   [`954292d`](https://github.com/stdlib-js/stdlib/commit/954292d127bf5dfd360df92ab5e73bac33a9b673) - address off-by-one error
 -   [`ad90a38`](https://github.com/stdlib-js/stdlib/commit/ad90a38e1d8eabd6476c7c086ac1f82f2742d386) - ensure correct shape and strides
 
@@ -33,6 +36,9 @@
 
 <details>
 
+-   [`ccc7890`](https://github.com/stdlib-js/stdlib/commit/ccc7890aee959303e2defbc627b32f66b18535eb) - **fix:** check for row-major value _(by Athan Reines)_
+-   [`7583774`](https://github.com/stdlib-js/stdlib/commit/7583774f4307a69b9e364a2e60c14ee034fa02a9) - **fix:** use resolved order when computing loop variables _(by Athan Reines)_
+-   [`e0a04fe`](https://github.com/stdlib-js/stdlib/commit/e0a04fe3cbdcab5adb4529158d2ccf085fb971a6) - **fix:** use computed order _(by Athan Reines)_
 -   [`954292d`](https://github.com/stdlib-js/stdlib/commit/954292d127bf5dfd360df92ab5e73bac33a9b673) - **fix:** address off-by-one error _(by Athan Reines)_
 -   [`d19823e`](https://github.com/stdlib-js/stdlib/commit/d19823e71c410b6f6ff1db39a70fdf83ed7e4267) - **refactor:** avoid mutating the list of views _(by Athan Reines)_
 -   [`38e6862`](https://github.com/stdlib-js/stdlib/commit/38e6862ed900b11bde5596931df3adfd652118ee) - **refactor:** precompute shape and strides _(by Athan Reines)_
