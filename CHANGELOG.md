@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-12)
+## Unreleased (2025-06-06)
 
 <section class="features">
 
@@ -20,6 +20,8 @@
 
 ### Bug Fixes
 
+-   [`3f6c0ff`](https://github.com/stdlib-js/stdlib/commit/3f6c0ffd9568665b54d0547b0550b2c96505bed6) - address increment bug
+-   [`d1f5820`](https://github.com/stdlib-js/stdlib/commit/d1f58208fc95174fcfce03f00df278a8190578de) - address increment bug
 -   [`ccc7890`](https://github.com/stdlib-js/stdlib/commit/ccc7890aee959303e2defbc627b32f66b18535eb) - check for row-major value
 -   [`7583774`](https://github.com/stdlib-js/stdlib/commit/7583774f4307a69b9e364a2e60c14ee034fa02a9) - use resolved order when computing loop variables
 -   [`e0a04fe`](https://github.com/stdlib-js/stdlib/commit/e0a04fe3cbdcab5adb4529158d2ccf085fb971a6) - use computed order
@@ -36,6 +38,8 @@
 
 <details>
 
+-   [`3f6c0ff`](https://github.com/stdlib-js/stdlib/commit/3f6c0ffd9568665b54d0547b0550b2c96505bed6) - **fix:** address increment bug _(by Athan Reines)_
+-   [`d1f5820`](https://github.com/stdlib-js/stdlib/commit/d1f58208fc95174fcfce03f00df278a8190578de) - **fix:** address increment bug _(by Athan Reines)_
 -   [`ccc7890`](https://github.com/stdlib-js/stdlib/commit/ccc7890aee959303e2defbc627b32f66b18535eb) - **fix:** check for row-major value _(by Athan Reines)_
 -   [`7583774`](https://github.com/stdlib-js/stdlib/commit/7583774f4307a69b9e364a2e60c14ee034fa02a9) - **fix:** use resolved order when computing loop variables _(by Athan Reines)_
 -   [`e0a04fe`](https://github.com/stdlib-js/stdlib/commit/e0a04fe3cbdcab5adb4529158d2ccf085fb971a6) - **fix:** use computed order _(by Athan Reines)_
