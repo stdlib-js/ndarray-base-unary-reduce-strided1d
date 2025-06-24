@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-06)
+## Unreleased (2025-06-24)
 
 <section class="features">
 
@@ -38,6 +38,7 @@
 
 <details>
 
+-   [`f628312`](https://github.com/stdlib-js/stdlib/commit/f628312bf9eada1a982b2563d3aa65908e29a476) - **docs:** fix example _(by Athan Reines)_
 -   [`3f6c0ff`](https://github.com/stdlib-js/stdlib/commit/3f6c0ffd9568665b54d0547b0550b2c96505bed6) - **fix:** address increment bug _(by Athan Reines)_
 -   [`d1f5820`](https://github.com/stdlib-js/stdlib/commit/d1f58208fc95174fcfce03f00df278a8190578de) - **fix:** address increment bug _(by Athan Reines)_
 -   [`ccc7890`](https://github.com/stdlib-js/stdlib/commit/ccc7890aee959303e2defbc627b32f66b18535eb) - **fix:** check for row-major value _(by Athan Reines)_
