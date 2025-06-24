@@ -41,32 +41,20 @@ limitations under the License.
 
 <!-- /.intro -->
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/ndarray-base-unary-reduce-strided1d
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
--   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var unaryReduceStrided1d = require( '@stdlib/ndarray-base-unary-reduce-strided1d' );
+import unaryReduceStrided1d from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-reduce-strided1d@deno/mod.js';
+```
+
+You can also import the following named exports from the package:
+
+```javascript
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-reduce-strided1d@deno/mod.js';
 ```
 
 #### unaryReduceStrided1d( fcn, arrays, dims\[, options] )
@@ -76,13 +64,13 @@ Performs a reduction over a list of specified dimensions in an input ndarray via
 <!-- eslint-disable max-len -->
 
 ```javascript
-var Float64Array = require( '@stdlib/array-float64' );
-var ndarray2array = require( '@stdlib/ndarray-base-to-array' );
-var getStride = require( '@stdlib/ndarray-base-stride' );
-var getOffset = require( '@stdlib/ndarray-base-offset' );
-var getData = require( '@stdlib/ndarray-base-data-buffer' );
-var numelDimension = require( '@stdlib/ndarray-base-numel-dimension' );
-var gsum = require( '@stdlib/blas-ext-base-gsum' ).ndarray;
+import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@deno/mod.js';
+import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-to-array@deno/mod.js';
+import getStride from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-stride@deno/mod.js';
+import getOffset from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-offset@deno/mod.js';
+import getData from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-data-buffer@deno/mod.js';
+import numelDimension from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-numel-dimension@deno/mod.js';
+var gsum = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gsum' ).ndarray;
 
 function wrapper( arrays ) {
     var x = arrays[ 0 ];
@@ -184,15 +172,15 @@ Each provided ndarray should be an object with the following properties:
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var discreteUniform = require( '@stdlib/random-array-discrete-uniform' );
-var zeros = require( '@stdlib/array-base-zeros' );
-var ndarray2array = require( '@stdlib/ndarray-base-to-array' );
-var numelDimension = require( '@stdlib/ndarray-base-numel-dimension' );
-var getData = require( '@stdlib/ndarray-base-data-buffer' );
-var getStride = require( '@stdlib/ndarray-base-stride' );
-var getOffset = require( '@stdlib/ndarray-base-offset' );
-var gsum = require( '@stdlib/blas-ext-base-gsum' ).ndarray;
-var unaryReduceStrided1d = require( '@stdlib/ndarray-base-unary-reduce-strided1d' );
+import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
+import zeros from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zeros@deno/mod.js';
+import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-to-array@deno/mod.js';
+import numelDimension from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-numel-dimension@deno/mod.js';
+import getData from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-data-buffer@deno/mod.js';
+import getStride from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-stride@deno/mod.js';
+import getOffset from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-offset@deno/mod.js';
+var gsum = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gsum' ).ndarray;
+import unaryReduceStrided1d from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-reduce-strided1d@deno/mod.js';
 
 function wrapper( arrays ) {
     var x = arrays[ 0 ];
@@ -244,7 +232,7 @@ console.log( ndarray2array( y.data, y.shape, y.strides, y.offset, y.order ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
