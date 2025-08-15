@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-21)
+## Unreleased (2025-08-15)
 
 <section class="features">
 
@@ -20,6 +20,7 @@
 
 ### Bug Fixes
 
+-   [`f2f4cba`](https://github.com/stdlib-js/stdlib/commit/f2f4cba93e4b45064b4197f7c90f22abf8f3fb8c) - address assignment bug
 -   [`3f6c0ff`](https://github.com/stdlib-js/stdlib/commit/3f6c0ffd9568665b54d0547b0550b2c96505bed6) - address increment bug
 -   [`d1f5820`](https://github.com/stdlib-js/stdlib/commit/d1f58208fc95174fcfce03f00df278a8190578de) - address increment bug
 -   [`ccc7890`](https://github.com/stdlib-js/stdlib/commit/ccc7890aee959303e2defbc627b32f66b18535eb) - check for row-major value
@@ -38,6 +39,7 @@
 
 <details>
 
+-   [`f2f4cba`](https://github.com/stdlib-js/stdlib/commit/f2f4cba93e4b45064b4197f7c90f22abf8f3fb8c) - **fix:** address assignment bug _(by Athan Reines)_
 -   [`f628312`](https://github.com/stdlib-js/stdlib/commit/f628312bf9eada1a982b2563d3aa65908e29a476) - **docs:** fix example _(by Athan Reines)_
 -   [`3f6c0ff`](https://github.com/stdlib-js/stdlib/commit/3f6c0ffd9568665b54d0547b0550b2c96505bed6) - **fix:** address increment bug _(by Athan Reines)_
 -   [`d1f5820`](https://github.com/stdlib-js/stdlib/commit/d1f58208fc95174fcfce03f00df278a8190578de) - **fix:** address increment bug _(by Athan Reines)_
