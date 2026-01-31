@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/ndarray-base-unary-reduce-strided1d",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Perform a reduction over a list of specified dimensions in an input ndarray via a one-dimensional strided array reduction function and assign results to a provided output ndarray.",
   "license": "Apache-2.0",
   "author": {
@@ -36,10 +36,10 @@
   },
   "dependencies": {
     "@stdlib/array-base-copy-indexed": "^0.2.2",
-    "@stdlib/array-base-indices-complement": "github:stdlib-js/array-base-indices-complement#main",
+    "@stdlib/array-base-indices-complement": "^0.1.0",
     "@stdlib/array-base-join": "^0.1.1",
     "@stdlib/array-base-take-indexed": "^0.2.2",
-    "@stdlib/array-base-take-indexed2": "github:stdlib-js/array-base-take-indexed2#main",
+    "@stdlib/array-base-take-indexed2": "^0.1.0",
     "@stdlib/array-base-without": "github:stdlib-js/array-base-without#main",
     "@stdlib/array-base-zeros": "^0.2.2",
     "@stdlib/assert-is-function": "^0.2.2",
@@ -51,7 +51,7 @@
     "@stdlib/ndarray-base-ndarraylike2object": "^0.2.2",
     "@stdlib/ndarray-base-numel": "^0.2.2",
     "@stdlib/ndarray-base-strides2order": "^0.2.2",
-    "@stdlib/ndarray-base-to-unique-normalized-indices": "github:stdlib-js/ndarray-base-to-unique-normalized-indices#main",
+    "@stdlib/ndarray-base-to-unique-normalized-indices": "^0.1.0",
     "@stdlib/ndarray-base-unary-loop-interchange-order": "^0.2.1",
     "@stdlib/ndarray-base-unary-tiling-block-size": "^0.2.2",
     "@stdlib/ndarray-base-vind2bind": "^0.2.2",
@@ -60,7 +60,7 @@
     "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
-    "@stdlib/blas-ext-base-gsum": "^0.2.2",
+    "@stdlib/blas-ext-base-gsum": "^0.3.0",
     "@stdlib/ndarray-base-data-buffer": "^0.2.2",
     "@stdlib/ndarray-base-numel-dimension": "^0.3.2",
     "@stdlib/ndarray-base-offset": "^0.2.2",
