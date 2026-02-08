@@ -48,13 +48,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import unaryReduceStrided1d from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-reduce-strided1d@esm/index.mjs';
+import unaryReduceStrided1d from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-reduce-strided1d@v0.1.1-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-reduce-strided1d@esm/index.mjs';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-reduce-strided1d@v0.1.1-esm/index.mjs';
 ```
 
 #### unaryReduceStrided1d( fcn, arrays, dims\[, options] )
@@ -185,7 +185,7 @@ import getData from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-data-buf
 import getStride from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-stride@esm/index.mjs';
 import getOffset from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-offset@esm/index.mjs';
 var gsum = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gsum' ).ndarray;
-import unaryReduceStrided1d from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-reduce-strided1d@esm/index.mjs';
+import unaryReduceStrided1d from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-reduce-strided1d@v0.1.1-esm/index.mjs';
 
 function wrapper( arrays ) {
     var x = arrays[ 0 ];
