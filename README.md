@@ -162,7 +162,7 @@ Each provided ndarray should be an object with the following properties:
 
 -   Any additional ndarray arguments are expected to have the same leading dimensions as the non-reduced dimensions of the input ndarray.
 
--   When calling the reduction function, any additional ndarray arguments are provided as k-dimensional subarrays, where `k = M - N` with `M` being the number of dimensions in an ndarray argument and `N` being the number of non- reduced dimensions in the input ndarray. For example, if an input ndarray has three dimensions, the number of reduced dimensions is two, and an additional ndarray argument has one dimension, thus matching the number of non-reduced dimensions in the input ndarray, the reduction function is provided a zero-dimensional subarray as an additional ndarray argument. In the same scenario but where an additional ndarray argument has two dimensions, thus exceeding the number of non-reduced dimensions in the input ndarray, the reduction function is provided a one-dimensional subarray as an additional ndarray argument.
+-   When calling the reduction function, any additional ndarray arguments are provided as k-dimensional subarrays, where `k = M - N` with `M` being the number of dimensions in an ndarray argument and `N` being the number of non-reduced dimensions in the input ndarray. For example, if an input ndarray has three dimensions, the number of reduced dimensions is two, and an additional ndarray argument has one dimension, thus matching the number of non-reduced dimensions in the input ndarray, the reduction function is provided a zero-dimensional subarray as an additional ndarray argument. In the same scenario but where an additional ndarray argument has two dimensions, thus exceeding the number of non-reduced dimensions in the input ndarray, the reduction function is provided a one-dimensional subarray as an additional ndarray argument.
 
 -   The reduction function is expected to have the following signature:
 
@@ -258,6 +258,11 @@ For more information on the project, filing bug reports and feature requests, an
 
 ---
 
+## License
+
+See [LICENSE][stdlib-license].
+
+
 ## Copyright
 
 Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
@@ -303,6 +308,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [esm-url]: https://github.com/stdlib-js/ndarray-base-unary-reduce-strided1d/tree/esm
 [esm-readme]: https://github.com/stdlib-js/ndarray-base-unary-reduce-strided1d/blob/esm/README.md
 [branches-url]: https://github.com/stdlib-js/ndarray-base-unary-reduce-strided1d/blob/main/branches.md
+
+[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/ndarray-base-unary-reduce-strided1d/main/LICENSE
 
 </section>
 

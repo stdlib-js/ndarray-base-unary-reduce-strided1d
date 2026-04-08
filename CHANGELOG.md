@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`16c408d`](https://github.com/stdlib-js/stdlib/commit/16c408d950173630d6d458987f0d4d0a5e0c9f3e) - **docs:** fix copy _(by Athan Reines)_
 -   [`c8df03c`](https://github.com/stdlib-js/stdlib/commit/c8df03cfe4cb5362cfff5f981aff4c0abc6d0e5a) - **refactor:** add support for ancilliary ndarrays which decompose into subarrays _(by Athan Reines)_
 
 </details>
